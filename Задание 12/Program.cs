@@ -10,11 +10,11 @@ namespace Задание_12
     {
         static void Main(string[] args)
         {
-            Console.Write("Введите радиус окружности: ");
+            Console.Write("Введите радиус окружности:  ");
             double radius = Convert.ToDouble(Console.ReadLine());
-            Console.Write("Введите координату x: ");
+            Console.Write("Введите координату x:  ");
             double x = Math.Abs(Convert.ToDouble(Console.ReadLine()));
-            Console.Write("Введите координату y: ");
+            Console.Write("Введите координату y:  ");
             double y = Math.Abs(Convert.ToDouble(Console.ReadLine()));
             Okrujnost.Dlina(radius);
             Okrujnost.Ploshad(radius);
